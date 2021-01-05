@@ -1,0 +1,33 @@
+Avalon 1.0
+     added basic structure to script, into, goal of game ect
+     added basic caracter creation, that retains the info given
+     made a basic stat check on line 76-81
+     working on numberd stat checks line 81-93
+     added first encounter with 2 foes and multipul dialog for diffrent classes
+     added more option to first encounter
+     created a index.txt file
+     created a todo.txt
+     added EULA that closes program if user dose not accept
+     added ending to first encount
+     fixed spelling mistakes
+     Renamed game M-E
+     finished v1.0
+
+ M-E v1.1
+     Added more #statements to understand the code better
+     added farmer encounter
+          has curse if not helped
+          gives madalion if helped
+          both to be determind
+     added a "press enter to cosntinue" promt at the end of the first encounter
+     added bar filler
+     edited farmer encounter dilog
+        removed useless if statment
+     edited stat grammer
+
+
+
+
+
+
+
