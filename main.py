@@ -33,7 +33,8 @@ time.sleep(4)
 print('Lord of the rings, The Hobbit, and the silmarillion were all written by R.R.Tolkin')
 print('and owned by the Saul Zaentz Company')
 print('the story in the program below was written by ModDayHippie using assets from middle earth')
-print('if you have any questions you can message me at kelloggs989@live.com')
+print('if you have any questions, message me at https://github.com/ModDayHippie/M-E-Text-Based-Adventure-Game')
+
 print('---------------------------------------------------------------------------------------------')
 time.sleep(4)
 
@@ -346,6 +347,7 @@ time.sleep(5)
 print('"ill pass on the chowder but the ale sounds great"')
 print('----------------------------------------------------------------------------------------------------------')
 time.sleep(5)
+
 #bar encounter
 print('after a few ales you call the bartender over once again')
 print('wheres the nearest blacksmith" you say')
@@ -358,11 +360,51 @@ print('"no need to get hostile there freind, other side of town. big place red r
 time.sleep(5)
 print('after another ale you decide its a good time to head out')
 print('you gather your belonging and leave')
-print('test line for github')
+print('---------------------------------------------------------------------------------------------------------')
+
+#into to blacksmith
+print('after a short walk you make it to the black smith')
+print('you see a tall, coal covered man hammering a sword')
+time.sleep(2)
+print('"hold on just a sec and ill be over" he says to you')
+time.sleep(2)
+print('"so what can i get you today"')
+print('im thinking of just get weapons and armour fixed')
+
+#blacksmith dialog detrmined by race
+if Class == 'archer':
+    print('well ill have your bow fixed in no time')
+if Class == 'mage':
+    print('well i dont think i could do much with that staff. and theres no wizards around. im sorry about your luck')
+    print('i guess i could put a nice finish on with with some lacker')
+    time.sleep(2)
+    print('"NO!!" you exclaim "that would make it useless"')
+if Class == 'bard':
+    print('uhh, what do you want me to do with your harp.....and why is there blood on it')
+    print('i guess i could give it a nice finish with some lacker or somthing')
+if Class == 'hero':
+    print('no problem, ill have your sword sharpend in no time')
+time.sleep(3)
+print('"how much will it be"')
+print('well, about 20 gold should do it')
+time.sleep(2)
+print('that seems fair, how long will it take" ')
+print('about 2-3 hours, in the meantime theres a market over yonder you should check out')
+time.sleep(3)
+print('sounds like a plan')
+print('------------------------------------------------------------------------------------------------')
+time.sleep(5)
+
+#market encounter and gain companion
+print('you walk a short distance to the market, but its not very long before you hear a ruckus')
+print('')
+
+
 #outtro message at the end of the game, always at bottom of script
 print('--------------------------------------------------------------------------------------------------------')
 time.sleep(3)
 print('thanks for playing M-E v1.1 WIP, more will be released soon')
 print('thanks for the support and feedback')
 print('ModDayHippie')
+print('for more info head over to https://github.com/ModDayHippie/M-E-Text-Based-Adventure-Game')
 input('press ENTER to exit')

@@ -24,6 +24,10 @@ Avalon 1.0
      edited farmer encounter dilog
         removed useless if statment
      edited stat grammer
+     added github link
+     added into dialog for black smith and class dependent dialog
+
+
 
 
 
