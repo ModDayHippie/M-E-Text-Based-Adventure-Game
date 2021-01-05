@@ -397,7 +397,17 @@ time.sleep(5)
 
 #market encounter and gain companion
 print('you walk a short distance to the market, but its not very long before you hear a ruckus')
-print('')
+print('you look over and see a dwarf and elf arguing')
+time.sleep(2)
+print('the grabs and item from the dwarf, pushes him to the ground and runs off')
+print('-------------------------------------------------------------------------------------')
+time.sleep(2)
+de = input('do you want to go help the dwarf? (y/n):')
+
+#if statments for helping
+if de == 'y':
+    print('you run over to the dwarf and help him up')
+    print('')
 
 
 #outtro message at the end of the game, always at bottom of script
