@@ -1,11 +1,15 @@
 # M-E-Text-Based-Adventure-Game
 main.py is current version of the game
 
+-------------------------------------------------------------
+
 Windows
 
 to run first install python 3.x from https://www.python.org/downloads
 
 after run main.py
+
+-------------------------------------------------------------
 
 ubuntu 20.04
 
@@ -22,5 +26,15 @@ use "cd /home/usr/
 then "python3 main.py
 
 if you have trouble finding the directory install tree via terminal 
+
+-------------------------------------------------------------------------------------
+
+android
+
+download pydroid 3 from the playstore
+
+download mai.py
+
+load in pydroid 3 and hit launch
 
 https://moddayhippie.itch.io/m-e-text-based-adventure-game
