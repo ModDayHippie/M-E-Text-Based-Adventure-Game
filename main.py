@@ -9,12 +9,12 @@ print('''░░░░░█▐▓▓░████▄▄▄█▀▄▓▓▓�
 ▌▓▄▌▀░▀░▐▀█▄▓▓██████████▓▓▓▌█▌
 ▌▓▓▓▄▄▀▀▓▓▓▀▓▓▓▓▓▓▓▓█▓█▓█▓▓▌█▌
 █▐▓▓▓▓▓▓▄▄▄▓▓▓▓▓▓█▓█▓█▓█▓▓▓▐█''')
-input('press Enter to start M-E v1.1 WIP')
+input('press Enter to start M-E v1.1')
 
 
 
 import time
-import code
+
 #lines describe the game with lore and what the goal is
 print('Welcome to M-E, a text based adventure game based on the books by R.R.Tolkin')
 time.sleep(2)
@@ -333,7 +333,9 @@ if farmer == 'n':
     if farmer == 'n':
         curse = input('you have been cursed, press enter "y" to continue:')
 print('------------------------------------------------------------------------------------------------------')
-
+time.sleep(5)
+input('press Enter to continue')
+print('------------------------------------------------------------------------------------------------------')
 #filler story from farmer to town and bar into
 print('you continue your way to the nearest pub for a nice cold ale')
 print('you you notice a sign with a mug on it, "well there we go" you think to yourself')
@@ -361,7 +363,9 @@ time.sleep(5)
 print('after another ale you decide its a good time to head out')
 print('you gather your belonging and leave')
 print('---------------------------------------------------------------------------------------------------------')
-
+time.sleep(5)
+input('press Enter to continue')
+print('----------------------------------------------------------------------------------------------------------')
 #into to blacksmith
 print('after a short walk you make it to the black smith')
 print('you see a tall, coal covered man hammering a sword')
@@ -404,16 +408,51 @@ print('-------------------------------------------------------------------------
 time.sleep(2)
 de = input('do you want to go help the dwarf? (y/n):')
 
-#if statments for helping
+#if statments for helping, str deh is the carry over str for later use
 if de == 'y':
     print('you run over to the dwarf and help him up')
-    print('e')
-
+    print('"thank you, but would you as to be so kind to help me stop that theif?"')
+    time.sleep(2)
+    print('hes stolen all my coin and i cant pay my debt at the local in"')
+    deh = input('do you want to help the dwarf catch the theif? (y/n):')
+    if deh == 'y':
+        print('you ran after the thief and after a breif chase you corner him in an ally')
+        print('"you just better hand over that gold and no one will get hurt"')
+        time.sleep(2)
+        print('the thief tosses you the gold and says "there you guys gonna let me go?')
+        print('"yea im happy" you say. "if i had my way you would be headless" exclaims the dwarf')
+        time.sleep(2)
+        print('the thief runs by by and you lose sight of him as he enters a crowd')
+        print('thank you' + race + ', whats your name')
+        time.sleep(2)
+        print('you tell the dwarf your name, and he tells you his')
+        print('well' + name + '"nice to meet you im Durin VII')
+        time.sleep(2)
+        print('where you off to after this? and adventure?')
+        dh = input('do you want to tell durin your story and where your going (y/n):')
+        if dh == 'y':
+            print('''you tell the dwarf of the merchant, and how you were ambushed
+            and given a box of great value to Rivendale''')
+            time.sleep(5)
+            print('well i dont know about a dwarf going right into Rivendale')
+            print('but if you will have me ill walk you right to the gates')
+            time.sleep(2)
+            dj = input('do you want durin to join you? (y/n)')
+            if dj == 'y':
+                print('great well head out right after i pay my debt off at the inn, ill meet you there')
+        if dh == 'n':
+            print('ah i see how it is, secret errands and stuff')
+            print('well if you change your mind ill be over at the in, and thanks again for the help')
+    if deh == 'n':
+        print('arrg fine, why would a ' + race + 'like you help me anyways')
+        print('the dwarf walkf off into the crowd and you loose sight of him')
+if de == 'n':
+    print('you decided not to help the elf and continue to look around the market')
 
 #outtro message at the end of the game, always at bottom of script
 print('--------------------------------------------------------------------------------------------------------')
 time.sleep(3)
-print('thanks for playing M-E v1.1 WIP, more will be released soon')
+print('thanks for playing M-E v1.1, more will be released soon')
 print('thanks for the support and feedback')
 print('ModDayHippie')
 print('for more info head over to https://github.com/ModDayHippie/M-E-Text-Based-Adventure-Game')

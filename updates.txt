@@ -26,8 +26,9 @@ Avalon 1.0
      edited stat grammer
      added github link
      added into dialog for black smith and class dependent dialog
-
-
+     added dwarf companion encounter
+     added "press enter to continue" after farmer encounter and bar filler
+     removed import core (not needed atm)
 
 
 
