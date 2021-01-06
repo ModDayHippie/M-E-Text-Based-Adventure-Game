@@ -29,4 +29,12 @@ if you have trouble finding the directory install tree via terminal
 
 -------------------------------------------------------------------------------------
 
+android
+
+download pydroid 3 from the playstore
+
+download mai.py
+
+load in pydroid 3 and hit launch
+
 https://moddayhippie.itch.io/m-e-text-based-adventure-game
