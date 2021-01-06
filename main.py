@@ -407,7 +407,7 @@ de = input('do you want to go help the dwarf? (y/n):')
 #if statments for helping
 if de == 'y':
     print('you run over to the dwarf and help him up')
-    print('')
+    print('e')
 
 
 #outtro message at the end of the game, always at bottom of script
