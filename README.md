@@ -15,7 +15,7 @@ sudo apt install -y python3-pip
 
 then sudo apt install -y build-essential libssl-dev libffi-dev python3-dev
 
-then download file and extract, move main to home folder
+then download file and extract, move main.py to home folder
 
 use "cd /home/usr/
 
