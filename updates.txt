@@ -36,6 +36,8 @@ Avalon 1.0
      fixed spelling
      format changes
      added 'press enter to continue after market'
+     added market encounter
+     skeched out local inn encounter
 
 
 
