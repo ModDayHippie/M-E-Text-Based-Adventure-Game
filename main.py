@@ -9,7 +9,7 @@ print('''░░░░░█▐▓▓░████▄▄▄█▀▄▓▓▓�
 ▌▓▄▌▀░▀░▐▀█▄▓▓██████████▓▓▓▌█▌
 ▌▓▓▓▄▄▀▀▓▓▓▀▓▓▓▓▓▓▓▓█▓█▓█▓▓▌█▌
 █▐▓▓▓▓▓▓▄▄▄▓▓▓▓▓▓█▓█▓█▓█▓▓▓▐█''')
-input('press Enter to start M-E v1.1')
+input('press Enter to start M-E v1.2 WIP')
 
 
 
@@ -21,6 +21,7 @@ time.sleep(2)
 print('The goal of the game is to deliver an item of great value')
 time.sleep(2)
 print('------------------------------------------------------------------------------------')
+
 #legal info if any
 print('this script/game was written in Python 3 with help from PyCharm')
 print('both are open source programs')
@@ -50,8 +51,6 @@ if EULA == 'n':
     input(exit())
 
 print('--------------------------------------------------------------------------------------------')
-
-
 
 print('''Please make sure your spelling is correct with the promt. i know i cant spell correctly but
 if you don't spell them the way i did the program wont work.
@@ -336,6 +335,7 @@ print('-------------------------------------------------------------------------
 time.sleep(5)
 input('press Enter to continue')
 print('------------------------------------------------------------------------------------------------------')
+
 #filler story from farmer to town and bar into
 print('you continue your way to the nearest pub for a nice cold ale')
 print('you you notice a sign with a mug on it, "well there we go" you think to yourself')
@@ -408,7 +408,7 @@ print('-------------------------------------------------------------------------
 time.sleep(2)
 de = input('do you want to go help the dwarf? (y/n):')
 
-#if statments for helping, str deh is the carry over str for later use
+#if statments for helping, str dh is the carry over str for later use
 if de == 'y':
     print('you run over to the dwarf and help him up')
     print('"thank you, but would you as to be so kind to help me stop that theif?"')
@@ -437,7 +437,7 @@ if de == 'y':
             print('well i dont know about a dwarf going right into Rivendale')
             print('but if you will have me ill walk you right to the gates')
             time.sleep(2)
-            dj = input('do you want durin to join you? (y/n)')
+            dj = input('do you want Durin to join you? (y/n)')
             if dj == 'y':
                 print('great well head out right after i pay my debt off at the inn, ill meet you there')
         if dh == 'n':
@@ -445,14 +445,26 @@ if de == 'y':
             print('well if you change your mind ill be over at the in, and thanks again for the help')
     if deh == 'n':
         print('arrg fine, why would a ' + race + 'like you help me anyways')
-        print('the dwarf walkf off into the crowd and you loose sight of him')
+        print('the dwarf walked off into the crowd and you loose sight of him')
 if de == 'n':
     print('you decided not to help the elf and continue to look around the market')
+
+print('----------------------------------------------------------------------------------------------------------')
+input('press Enter to continue')
+print('-----------------------------------------------------------------------------------------------------------')
+
+print('after awhile you decided to head back to the blacksmith')
+print('"ah there you are" everythings ready for you')
+time.sleep(3)
+print('you pay the blacksmith and head back to the local inn')
+print('---------------------------------------------------------------------------------------------------------')
+time.sleep(5)
+print('as you walk into the in you see a group of large men with swords talking to the bartender')
 
 #outtro message at the end of the game, always at bottom of script
 print('--------------------------------------------------------------------------------------------------------')
 time.sleep(3)
-print('thanks for playing M-E v1.1, more will be released soon')
+print('thanks for playing M-E v1.2 WIP, more will be released soon')
 print('thanks for the support and feedback')
 print('ModDayHippie')
 print('for more info head over to https://github.com/ModDayHippie/M-E-Text-Based-Adventure-Game')

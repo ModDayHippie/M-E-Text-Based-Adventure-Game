@@ -30,6 +30,12 @@ Avalon 1.0
      added "press enter to continue" after farmer encounter and bar filler
      removed import core (not needed atm)
 
+ M-E v1.2
+     fixed # statement for dwarf help
+     changed intro outro info for version number
+     fixed spelling
+     format changes
+     added 'press enter to continue after market'
 
 
 
