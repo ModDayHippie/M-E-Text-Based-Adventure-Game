@@ -111,6 +111,7 @@ Correct = input('are these stats correct, you will not be able to change after (
 print('----------------------------------------------------------------------------------------')
 if Correct == 'n':
     #make this command restart the program not kill it**
+    print('')
     input(exit())
 
 #this area is a test for a stat check for word stats
