@@ -39,6 +39,11 @@ Avalon 1.0
      added market encounter
      skeched out local inn encounter
 
+M-E v1.2 b
+     Started making the Game as a GUI with Pysimple
+     Started making installer
+     making two braches on git hub, one for gui version and one for CLI
+    
 
 
 
