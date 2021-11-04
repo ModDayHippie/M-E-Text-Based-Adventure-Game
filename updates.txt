@@ -54,6 +54,8 @@ M-E v1.3 (sound update)
      added swords clashing sound
      fixed a few typos
      chaged game timeing
+     added branch for android dev
+         (intended as a modualless release)
      
 
 
