@@ -14,7 +14,7 @@ after right click the main.py and open with PyCharm
 Stand-Alone install
 
 to run first install python 3.x from https://www.python.org/downloads
-then install playsound with pip cia the command line(more info to come)
+                 then install playsound with pip cia the command line(more info to come)
 after run main.py
 
 -------------------------------------------------------------
