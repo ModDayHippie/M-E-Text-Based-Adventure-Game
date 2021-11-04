@@ -6,12 +6,13 @@ main.py is current version of the game
 Windows
 
 (Recomended)
-Go to https://www.jetbrains.com/pycharm/download/#section=windows
 
+Go to https://www.jetbrains.com/pycharm/download/#section=windows
 and download the comunity edition of PyCHarm
 after right click the main.py and open with PyCharm
 
 Stand-Alone install
+
 to run first install python 3.x from https://www.python.org/downloads
 then install playsound with pip cia the command line(more info to come)
 after run main.py
