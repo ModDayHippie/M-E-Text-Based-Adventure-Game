@@ -17,7 +17,7 @@ input('press Enter to start M-E v1.3(Sound Update) WIP')
 
 #modual imports
 import time
-from playsound import playsound
+#from playsound import playsound
 
 
 #lines describe the game with lore and what the goal is
@@ -222,9 +222,9 @@ if pounce == 'n':
         the first foe say "i give up please don't kill me, i have gold"
         but you decide not to listen and drive your sword though his chest''')
         time.sleep(5)
-        playsound('sword.mp3')
+        #playsound('sword.mp3')
         time.sleep(1)
-        #playsound('death.mp3')
+        playsound('death.mp3')
     if Class == 'bard':
         print('''you pull your harp out and lay down a fresh tune from the second era
         "haha about to be killed and he plays music"
