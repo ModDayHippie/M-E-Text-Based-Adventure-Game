@@ -47,6 +47,13 @@ M-E v1.2 b
 
 M-E v1.2F
      Arcived game to make room for version 2
+
+M-E v1.3 (sound update)
+     M-E v1.3 (Sound update)
+     added death sound from roblox
+     added swords clashing sound
+     fixed a few typos
+     chaged game timeing
      
 
 
