@@ -9,7 +9,7 @@ print('''░░░░░█▐▓▓░████▄▄▄█▀▄▓▓▓�
 ▌▓▄▌▀░▀░▐▀█▄▓▓██████████▓▓▓▌█▌
 ▌▓▓▓▄▄▀▀▓▓▓▀▓▓▓▓▓▓▓▓█▓█▓█▓▓▌█▌
 █▐▓▓▓▓▓▓▄▄▄▓▓▓▓▓▓█▓█▓█▓█▓▓▓▐█''')
-input('press Enter to start M-E v1.2 WIP')
+input('press Enter to start M-E v1.3(Sound Update) WIP')
 
 #These are the example lines for sound files
 #from playsound import playsound
@@ -17,7 +17,7 @@ input('press Enter to start M-E v1.2 WIP')
 
 #modual inports
 import time
-#from playsound import playsound(not used yet)
+from playsound import playsound
 
 
 #lines describe the game with lore and what the goal is
@@ -52,6 +52,7 @@ print('you agree that Lord of The Rings, The Hobbit ect are owned by the Saul Za
 EULA = input('do you agree to these conditions? (y/n):')
 if EULA == 'n':
     print('please have yourself an amazing day. relaunch the .py to restart the program')
+    playsound('death.mp3')
     time.sleep(3)
     input(exit())
 
