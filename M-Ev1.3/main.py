@@ -15,7 +15,7 @@ input('press Enter to start M-E v1.3(Sound Update) WIP')
 #from playsound import playsound
 #playsound('audio.mp3')
 
-#modual inports
+#modual imports
 import time
 from playsound import playsound
 
@@ -117,7 +117,9 @@ Correct = input('are these stats correct, you will not be able to change after (
 print('----------------------------------------------------------------------------------------')
 if Correct == 'n':
     #make this command restart the program not kill it**
-    print('')
+    print('please restart to program')
+    playsound('death.mp3')
+    time.sleep(5)
     input(exit())
 
 #this area is a test for a stat check for word stats
@@ -219,6 +221,10 @@ if pounce == 'n':
         then quickly spin around to decapitate him
         the first foe say "i give up please don't kill me, i have gold"
         but you decide not to listen and drive your sword though his chest''')
+        time.sleep(5)
+        playsound('sword.mp3')
+        time.sleep(1)
+        #playsound('death.mp3')
     if Class == 'bard':
         print('''you pull your harp out and lay down a fresh tune from the second era
         "haha about to be killed and he plays music"
@@ -228,7 +234,9 @@ if pounce == 'n':
         the second foe lunges towards you but you yeet your harp into his face causing -300 charisma
         damage and life long self hate for his looks
         "ahh i cant live like this"
-        the foe takes his one life''')
+        the foe takes his own life''')
+        time.sleep(5)
+        playsound('death.mp3')
     if Class == 'archer':
         print('''you pull out your bow, and get a arrow ready
         the figures walk out from the bush
@@ -250,8 +258,8 @@ if pounce == 'n':
         you are able to push him away and cast and AOE sole capture on him
         "AHAHHA WHAT IS THIS, i cant take it just end me......THE PAIN......THe pai.......''')
 print('-----------------------------------------------------------------------------------------------------------')
-#end of choses for first encounter start of outto dialog
-time.sleep(15)
+#end of choses for first encounter start of outro dialog
+time.sleep(10)
 print('after the struggle you hear a thud from behind')
 print('you look over and the merchant has an arrow in his chest')
 time.sleep(4)

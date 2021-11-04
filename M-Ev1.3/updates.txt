@@ -40,9 +40,15 @@ Avalon 1.0
      skeched out local inn encounter
 
 M-E v1.2 b
-     Started making the Game as a GUI with Pysimple
-     Started making installer
-     making two braches on git hub, one for gui version and one for CLI
+     #Started making the Game as a GUI with Pysimple#
+     Started making installer for RPI
+     #making two braches on git hub, one for gui version and one for CLI#
+
+M-E v1.3 (Sound update)
+     added death sound from roblox
+     added swords clashing sound
+     fixed a few typos
+     chaged game timeing
     
 
 
