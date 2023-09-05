@@ -1,14 +1,14 @@
 Avalon 1.0
      added basic structure to script, into, goal of game ect
-     added basic caracter creation, that retains the info given
+     added basic character creation, that retains the info given
      made a basic stat check on line 76-81
-     working on numberd stat checks line 81-93
-     added first encounter with 2 foes and multipul dialog for diffrent classes
+     working on numbered stat checks line 81-93
+     added first encounter with 2 foes and multiple dialog for different classes
      added more option to first encounter
      created a index.txt file
      created a todo.txt
      added EULA that closes program if user dose not accept
-     added ending to first encount
+     added ending to first encounter
      fixed spelling mistakes
      Renamed game M-E
      finished v1.0
@@ -17,14 +17,14 @@ Avalon 1.0
      Added more #statements to understand the code better
      added farmer encounter
           has curse if not helped
-          gives madalion if helped
-          both to be determind
-     added a "press enter to cosntinue" promt at the end of the first encounter
+          gives medallion if helped
+          both to be determined
+     added a "press enter to continue" prompt at the end of the first encounter
      added bar filler
-     edited farmer encounter dilog
-        removed useless if statment
-     edited stat grammer
-     added github link
+     edited farmer encounter dialog
+        removed useless if statement
+     edited stat grammar
+     added GitHub link
      added into dialog for black smith and class dependent dialog
      added dwarf companion encounter
      added "press enter to continue" after farmer encounter and bar filler
@@ -37,23 +37,25 @@ Avalon 1.0
      format changes
      added 'press enter to continue after market'
      added market encounter
-     skeched out local inn encounter
+     sketched out local inn encounter
 
 M-E v1.2 b
      Started making the Game as a GUI with Pysimple
      Started making installer
-     making two braches on git hub, one for gui version and one for CLI
+     making two branches on git hub, one for gui version and one for CLI
     
 
 M-E v1.2F
-     Arcived game to make room for version 2
+     Archived game to make room for version 2
 
 M-E v1.3 (sound update)
      M-E v1.3 (Sound update)
      added death sound from roblox
      added swords clashing sound
      fixed a few typos
-     chaged game timeing
+     changed game flow
+     fixed spelling updates.txt
+     changed game installation method in readme.md
      
 
 

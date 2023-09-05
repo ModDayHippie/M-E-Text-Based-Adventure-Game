@@ -3,15 +3,20 @@ main.py is current version of the game
 
 -------------------------------------------------------------
 
-Windows
+ **INSTALLATION INSTRUCTIONS FOR WINDOWS**
 
-to run first install python 3.x from https://www.python.org/downloads
+1.) Install PyCharm https://www.jetbrains.com/pycharm/download/?section=windows
 
-after run main.py
+2.) Clone Git
+
+3.) Open Git directory with Pycharm (the whole folder and not just the .py)
+
+4.) add pythonintepreter file to \venv\Scripts\ rename and replace the existing Python.exe
+
 
 -------------------------------------------------------------
 
-ubuntu 20.04
+****ubuntu** 20.04**
 
 open terminal and install python3 with 
 
