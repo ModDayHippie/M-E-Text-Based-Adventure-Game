@@ -1,5 +1,5 @@
 # M-E-Text-Based-Adventure-Game
-main.py is current version of the game
+main.py is current Beta version of the game
 
 -------------------------------------------------------------
 
